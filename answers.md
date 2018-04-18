@@ -35,10 +35,10 @@
 
     ***Answer:***
 
-    *bar(); - undefined*
+    *bar(); - reference error, cannot find variable bam*
 
 
-    *foo; - 'bar'*
+    *foo; - returns 'bar' when called without any other calls that throw a reference error*
 
 
     *bam; - reference error, cannot find variable bam*
